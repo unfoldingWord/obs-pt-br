@@ -1,10 +1,10 @@
 {
-  "checking_entity": "translation team", 
-  "checking_level": "1", 
+  "checking_entity": "L1 Vera Meningroni | L2 beta.lara.carla; Lara Andrade; Clara Pinto | L3 Igreja Boas Novas de Sao Paulo, Brasil: Vagner Vaelatti; David Distler; Eduardo de Oliveira; Jade; Thiago; Vanessa; Andre; Wilza; Nadia; Tatiane", 
+  "checking_level": "3", 
   "comments": "", 
-  "contributors": "abe.beserra;admin;beta.lara.carla;cheryljore;dan;deboradc;isaacthib;jonatas.matheus;tim;verinhalcm", 
-  "publish_date": "2014-12-08", 
+  "contributors": "abe.beserra;beta.lara.carla;cheryljore;dan;deboradc;isaacthib;jonatas.matheus;tim;verinhalcm", 
+  "publish_date": "2015-01-19", 
   "source_text": "en", 
   "source_text_version": "3.1", 
-  "version": "3.2.1"
+  "version": "3.2.2"
 }
