@@ -1,102 +1,106 @@
 <!doctype html>
-<html lang="en">
+<!--suppress ALL -->
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
 
-    <head>
-        <meta charset="utf-8">
+    <title>unfoldingWord Open Bible Stories</title>
 
-        <title>unfoldingWord Open Bible Stories</title>
+    <meta name="description" content="an unrestricted visual mini-Bible in any language">
+    <meta name="author"
+          content="Created by Distant Shores Media (http://distantshores.org) and the Door43 world missions community (http://door43.org).">
 
-        <meta name="description" content="an unrestricted visual mini-Bible in any language">
-        <meta name="author" content="Created by Distant Shores Media (http://distantshores.org) and the Door43 world missions community (http://door43.org).">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../../css/reveal.min.css">
+    <link rel="stylesheet" href="../../css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="../../css/uw.css">
 
-        <link rel="stylesheet" href="../../css/reveal.min.css">
-        <link rel="stylesheet" href="../../css/theme/default.css" id="theme">
-        <link rel="stylesheet" href="../../css/uw.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="../../css/zenburn.css">
 
-        <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="../../css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+        if (window.location.search.match(/print-pdf/gi)) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text../../css';
+            link.href = '../../css/print/pdf.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
 
-        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-        <script>
-            if( window.location.search.match( /print-pdf/gi ) ) {
-                var link = document.createElement( 'link' );
-                link.rel = 'stylesheet';
-                link.type = 'text../../css';
-                link.href = '../../css/print/pdf.css';
-                document.getElementsByTagName( 'head' )[0].appendChild( link );
-            }
-        </script>
+    <!--[if lt IE 9]>
+    <script src="../../js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
 
-        <!--[if lt IE 9]>
-        <script src="../../js/html5shiv.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-
-    <div class="meny">
-        <ul>
-            <li><a href="../01/index.html">1. A Criação</a></li>
-            <li><a href="../02/index.html">2. O Pecado Entra no Mundo</a></li>
-            <li><a href="../03/index.html">3. O Dilúvio</a></li>
-            <li><a href="../04/index.html">4. O Pacto de Deus com Abraão</a></li>
-            <li><a href="../05/index.html">5. O Filho da Promessa</a></li>
-            <li><a href="../06/index.html">6. A Providência de Deus para Isaque</a></li>
-            <li><a href="../07/index.html">7. Deus Abençoa Jacó</a></li>
-            <li><a href="../08/index.html">8. Deus salva José e sua Família</a></li>
-            <li><a href="../09/index.html">9. Deus chama Moisés</a></li>
-            <li><a href="../10/index.html">10. As Dez Pragas</a></li>
-            <li><a href="../11/index.html">11. A Páscoa</a></li>
-            <li><a href="../12/index.html">12. O Êxodo</a></li>
-            <li><a href="../13/index.html">13. O Pacto de Deus com Israel</a></li>
-            <li><a href="../14/index.html">14. Peregrinando no Deserto</a></li>
-            <li><a href="../15/index.html">15. A Terra Prometida</a></li>
-            <li><a href="../16/index.html">16. Os Libertadores</a></li>
-            <li><a href="../17/index.html">17. O Pacto de Deus com David</a></li>
-            <li><a href="../18/index.html">18. O Reino Dividido</a></li>
-            <li><a href="../19/index.html">19. Os Profetas</a></li>
-            <li><a href="../20/index.html">20. O Exílio e o Retorno</a></li>
-            <li><a href="../21/index.html">21. Deus Promete o Messias</a></li>
-            <li><a href="../22/index.html">22. O Nascimento de João</a></li>
-            <li><a href="../23/index.html">23. O Nascimento de Jesus</a></li>
-            <li><a href="../24/index.html">24. João Batiza Jesus</a></li>
-            <li><a href="../25/index.html">25. Satanás Tenta Jesus</a></li>
-            <li><a href="../26/index.html">26. Jesus Inicia o Seu Ministério</a></li>
-            <li><a href="../27/index.html">27. A História do Bom Samaritano</a></li>
-            <li><a href="../28/index.html">28. O Jovem Rico</a></li>
-            <li><a href="../29/index.html">29. A História do Servo sem Compaixão</a></li>
-            <li><a href="../30/index.html">30. Jesus Alimenta Cinco Mil Pessoas</a></li>
-            <li><a href="../31/index.html">31. Jesus Anda Sobre as Águas</a></li>
-            <li><a href="../32/index.html">32. Jesus Cura Um Endemoninhado e Uma Mulher Enferma</a></li>
-            <li><a href="../33/index.html">33. A História do Semeador</a></li>
-            <li><a href="../34/index.html">34. Jesus Ensina Outras Histórias</a></li>
-            <li><a href="../35/index.html">35. A História do Pai Compassivo</a></li>
-            <li><a href="../36/index.html">36. A Transfiguração</a></li>
-            <li><a href="../37/index.html">37. Jesus Ressuscita Lázaro</a></li>
-            <li><a href="../38/index.html">38. Jesus é Traído</a></li>
-            <li><a href="../39/index.html">39. Jesus é Julgado</a></li>
-            <li><a href="../40/index.html">40. Jesus é Crucificado</a></li>
-            <li><a href="../41/index.html">41. Jesus Ressuscita dos Mortos</a></li>
-            <li><a href="../42/index.html">42. Jesus Retorna ao Céu</a></li>
-            <li><a href="../43/index.html">43. O Início da Igreja</a></li>
-            <li><a href="../44/index.html">44. A Cura de Um Mendigo</a></li>
-            <li><a href="../45/index.html">45. Felipe e o Oficial Etíope</a></li>
-            <li><a href="../46/index.html">46. A Conversão de Paulo</a></li>
-            <li><a href="../47/index.html">47. Paulo e Silas em Filipos</a></li>
-            <li><a href="../48/index.html">48. Jesus é o Messias Prometido</a></li>
-            <li><a href="../49/index.html">49. O Novo Pacto com Deus</a></li>
-            <li><a href="../50/index.html">50. A Volta de Jesus</a></li>
-        </ul>
-        <p><a href="https://unfoldingword.org/stories/">Open Bible Stories Home</a></p>
-    </div>
-    <div class="meny-arrow"></div>
-    <div class="reveal">
-        <div class="slides">
-            <section><h1>20. O Exílio e o Retorno</h1><h3>A história bíblica de: 2 Reis 17; 24-25, 2 Crônicas 36; Esdras 1-10; Neemias 1-13</h3><div class="uwchecking"><a href="https://unfoldingword.org/quality/" target="_blank"><img src="https://api.unfoldingword.org/obs/jpg/1/checkinglevels/uW-Level3-64px.png" /></a></section>
+<div class="meny">
+    <ul>
+        <li><a href="../01/index.html">1. A Criação</a></li>
+        <li><a href="../02/index.html">2. O Pecado Entra no Mundo</a></li>
+        <li><a href="../03/index.html">3. O Dilúvio</a></li>
+        <li><a href="../04/index.html">4. O Pacto de Deus com Abraão</a></li>
+        <li><a href="../05/index.html">5. O Filho da Promessa</a></li>
+        <li><a href="../06/index.html">6. A Providência de Deus para Isaque</a></li>
+        <li><a href="../07/index.html">7. Deus Abençoa Jacó</a></li>
+        <li><a href="../08/index.html">8. Deus salva José e sua Família</a></li>
+        <li><a href="../09/index.html">9. Deus chama Moisés</a></li>
+        <li><a href="../10/index.html">10. As Dez Pragas</a></li>
+        <li><a href="../11/index.html">11. A Páscoa</a></li>
+        <li><a href="../12/index.html">12. O Êxodo</a></li>
+        <li><a href="../13/index.html">13. O Pacto de Deus com Israel</a></li>
+        <li><a href="../14/index.html">14. Peregrinando no Deserto</a></li>
+        <li><a href="../15/index.html">15. A Terra Prometida</a></li>
+        <li><a href="../16/index.html">16. Os Libertadores</a></li>
+        <li><a href="../17/index.html">17. O Pacto de Deus com David</a></li>
+        <li><a href="../18/index.html">18. O Reino Dividido</a></li>
+        <li><a href="../19/index.html">19. Os Profetas</a></li>
+        <li><a href="../20/index.html">20. O Exílio e o Retorno</a></li>
+        <li><a href="../21/index.html">21. Deus Promete o Messias</a></li>
+        <li><a href="../22/index.html">22. O Nascimento de João</a></li>
+        <li><a href="../23/index.html">23. O Nascimento de Jesus</a></li>
+        <li><a href="../24/index.html">24. João Batiza Jesus</a></li>
+        <li><a href="../25/index.html">25. Satanás Tenta Jesus</a></li>
+        <li><a href="../26/index.html">26. Jesus Inicia o Seu Ministério</a></li>
+        <li><a href="../27/index.html">27. A História do Bom Samaritano</a></li>
+        <li><a href="../28/index.html">28. O Jovem Rico</a></li>
+        <li><a href="../29/index.html">29. A História do Servo sem Compaixão</a></li>
+        <li><a href="../30/index.html">30. Jesus Alimenta Cinco Mil Pessoas</a></li>
+        <li><a href="../31/index.html">31. Jesus Anda Sobre as Águas</a></li>
+        <li><a href="../32/index.html">32. Jesus Cura Um Endemoninhado e Uma Mulher Enferma</a></li>
+        <li><a href="../33/index.html">33. A História do Semeador</a></li>
+        <li><a href="../34/index.html">34. Jesus Ensina Outras Histórias</a></li>
+        <li><a href="../35/index.html">35. A História do Pai Compassivo</a></li>
+        <li><a href="../36/index.html">36. A Transfiguração</a></li>
+        <li><a href="../37/index.html">37. Jesus Ressuscita Lázaro</a></li>
+        <li><a href="../38/index.html">38. Jesus é Traído</a></li>
+        <li><a href="../39/index.html">39. Jesus é Julgado</a></li>
+        <li><a href="../40/index.html">40. Jesus é Crucificado</a></li>
+        <li><a href="../41/index.html">41. Jesus Ressuscita dos Mortos</a></li>
+        <li><a href="../42/index.html">42. Jesus Retorna ao Céu</a></li>
+        <li><a href="../43/index.html">43. O Início da Igreja</a></li>
+        <li><a href="../44/index.html">44. A Cura de Um Mendigo</a></li>
+        <li><a href="../45/index.html">45. Felipe e o Oficial Etíope</a></li>
+        <li><a href="../46/index.html">46. A Conversão de Paulo</a></li>
+        <li><a href="../47/index.html">47. Paulo e Silas em Filipos</a></li>
+        <li><a href="../48/index.html">48. Jesus é o Messias Prometido</a></li>
+        <li><a href="../49/index.html">49. O Novo Pacto com Deus</a></li>
+        <li><a href="../50/index.html">50. A Volta de Jesus</a></li>
+    </ul>
+    <p><a href="https://unfoldingword.org/stories/">Open Bible Stories Home</a></p>
+</div>
+<div class="meny-arrow"></div>
+<div class="reveal">
+    <div class="slides"><section><h1>20. O Exílio e o Retorno</h1><h3>A história bíblica de: 2 Reis 17; 24-25, 2 Crônicas 36; Esdras 1-10; Neemias 1-13</h3><div class="uwchecking">
+    <a href="https://unfoldingword.org/quality/" target="_blank">
+        <img src="https://api.unfoldingword.org/obs/jpg/1/checkinglevels/uW-Level3-64px.png" />
+    </a>
+</section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/pt-br/2160px/obs-pt-br-20-01.jpg"><p>Os reinos de Israel e Judá pecaram contra Deus quebrando o pacto que Deus havia feito com eles no Monte Sinai. Por isso, Deus enviou Seus profetas para orientarem as pessoas a se arrependerem e a voltarem a adorar ao SENHOR como único Deus verdadeiro. Porém, o povo não quis ouvir e obedecê-los.</p></section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/pt-br/2160px/obs-pt-br-20-02.jpg"><p>Então, Deus permitiu que os inimigos de Israel destruíssem os reinos do norte e do sul. O Império Assírio, uma nação má e poderosa, invadiu, destruiu o Reino de Israel, matou muitos israelitas, levou objetos de valor e queimou grande parte do país.</p></section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/pt-br/2160px/obs-pt-br-20-03.jpg"><p>Os assírios levaram para seu país os líderes, as pessoas ricas, os artesãos e aqueles que trabalhavam com madeira, metal e construções. Deixaram em Israel somente os pobres.</p></section>
@@ -110,87 +114,110 @@
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/pt-br/2160px/obs-pt-br-20-11.jpg"><p>Cerca de setenta anos depois, Ciro, o rei dos persas, derrotou a Babilônia e o Império Persa assumiu o poder do Império Babilônico. Os israelitas eram agora chamados de judeus. A maioria deles passou a vida toda na Babilônia; somente uns poucos anciãos judeus conseguiam se lembrar da terra de Judá.</p></section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/pt-br/2160px/obs-pt-br-20-12.jpg"><p>Apesar de poderosos, os persas eram misericordiosos com os povos que dominavam. Logo depois que Ciro assumiu o poder, ele fez uma coisa boa: permitiu que os judeus voltassem livremente para sua terra. Ele até deu o dinheiro para reconstruírem o Templo. Então, após 70 anos no exílio, um pequeno grupo de judeus voltou para a cidade de Jerusalém em Judá.</p></section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/pt-br/2160px/obs-pt-br-20-13.jpg"><p>Quando chegou, o grupo reconstruiu o templo e levantou uma muralha com dois metros e meio de largura ao redor da cidade para proteger Jerusalém de outros inimigos. Embora os judeus ainda fossem governados por outro povo, podiam novamente viver na Terra Prometida e adorar a Deus no Templo, como fizeram seus antepassados.</p></section>
-<section><a href="../21/index.html"><p>Próximo capítulo</p></a></section>
-            </div>
-        </div>
+<section><a href="../21/index.html"><p>Próximo capítulo</p></a></section></div>
+</div>
 
-        <script src="../../js/head.min.js"></script>
-        <script src="../../js/reveal.min.js"></script>
-        <script src="../../js/meny.js"></script>
-        <script>
-            // Create an instance of Meny
-            var meny = Meny.create({
-                // The element that will be animated in from off screen
-                menuElement: document.querySelector( '.meny' ),
+<script src="../../js/head.min.js"></script>
+<script src="../../js/reveal.min.js"></script>
+<script src="../../js/meny.js"></script>
+<script>
+    // Create an instance of Meny
+    var meny = Meny.create({
+        // The element that will be animated in from off screen
+        menuElement: document.querySelector('.meny'),
 
-                // The contents that gets pushed aside while Meny is active
-                contentsElement: document.querySelector( '.reveal' ),
+        // The contents that gets pushed aside while Meny is active
+        contentsElement: document.querySelector('.reveal'),
 
-                // [optional] The alignment of the menu (top/right/bottom/left)
-                position: Meny.getQuery().p || 'left',
+        // [optional] The alignment of the menu (top/right/bottom/left)
+        position: Meny.getQuery().p || 'left',
 
-                // [optional] The height of the menu (when using top/bottom position)
-                height: 200,
+        // [optional] The height of the menu (when using top/bottom position)
+        height: 200,
 
-                // [optional] The width of the menu (when using left/right position)
-                width: 300,
+        // [optional] The width of the menu (when using left/right position)
+        width: 300,
 
-                // [optional] Distance from mouse (in pixels) when menu should open
-                threshold: 40,
+        // [optional] Distance from mouse (in pixels) when menu should open
+        threshold: 40,
 
-                // [optional] Use mouse movement to automatically open/close
-                mouse: true,
+        // [optional] Use mouse movement to automatically open/close
+        mouse: true,
 
-                // [optional] Use touch swipe events to open/close
-                touch: true
-            });
+        // [optional] Use touch swipe events to open/close
+        touch: true
+    });
 
-            // API Methods:
-            // meny.open();
-            // meny.close();
-            // meny.isOpen();
+    // API Methods:
+    // meny.open();
+    // meny.close();
+    // meny.isOpen();
 
-            // Events:
-            // meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
-            // meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
-        </script>
+    // Events:
+    // meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
+    // meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
+</script>
 
-        <script>
+<script>
 
-            var flyOutNotes;
+    var flyOutNotes;
 
-            // Full list of configuration options available here:
-            // https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
-                controls: true,
-                progress: true,
-                history: true,
-                center: false,
-                width: '100%',
-                height: '100%',
-                margin: 0,
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: false,
+        width: '100%',
+        height: '100%',
+        margin: 0,
 
-                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
-                // Parallax scrolling
-                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-                // parallaxBackgroundSize: '2100px 900px',
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
 
-                // Optional libraries used to extend on reveal.js
-                dependencies: [
-                    { src: '../../js/classList.js', condition: function() { return !document.body.classList; } },
-                    { src: '../../js/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: '../../js/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: '../../js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                    { src: '../../js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-                    { src: '../../js/obs-notes.js', async: true, callback: function() {
-                        flyOutNotes = new FlyOutNotes();
-                        window.addEventListener('hashchange', function() { flyOutNotes.loadNotes() });
-                    } }
-                ]
-            });
-        </script>
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            {
+                src: '../../js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: '../../js/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: '../../js/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: '../../js/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            },
+            {
+                src: '../../js/zoom.js', async: true, condition: function () {
+                return !!document.body.classList;
+            }
+            },
+            {
+                src: '../../js/obs-notes.js', async: true, callback: function () {
+                flyOutNotes = new FlyOutNotes();
+                window.addEventListener('hashchange', function () {
+                    flyOutNotes.loadNotes()
+                });
+            }
+            }
+        ]
+    });
+</script>
 
-    </body>
+</body>
 </html>
